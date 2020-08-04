@@ -315,12 +315,13 @@ def main():
              except requests.exceptions.ConnectionError:
                       sys.exit("\033[1;97m[\033[1;91m!\033[1;97m]\033[1;91mKoneksi Error\033[00m")
     elif tod == "02" or tod == "2":
+         os.system("git pull")
          balik()
     elif tod == "03" or tod == "3":
-         sub
+         sub()
     elif tod == "00" or tod == "0":
          exit()
     else:
-         exit()
+         os.system("python fb.py")
 if __name__=="__main__":
      main()
