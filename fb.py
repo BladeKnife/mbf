@@ -61,12 +61,6 @@ def main():
 \033[1;91m═══════════════════════════════════════════════════""")
     tod=input("\033[1;97m[\033[1;96m?\033[1;97m]\033[90m > \033[1;92m ")
     if tod == "01" or tod == "1":
-       import os
-       import re
-       import time
-       import json
-       import random
-       import requests
        from bs4 import BeautifulSoup as parser
        from concurrent.futures import ThreadPoolExecutor
        mbasic = 'https://mbasic.facebook.com{}'
@@ -316,7 +310,6 @@ def main():
                       sys.exit("\033[1;97m[\033[1;91m!\033[1;97m]\033[1;91mKoneksi Error\033[00m")
     elif tod == "02" or tod == "2":
          os.system("git pull")
-         balik()
     elif tod == "03" or tod == "3":
          sub()
     elif tod == "00" or tod == "0":
@@ -325,3 +318,4 @@ def main():
          os.system("python fb.py")
 if __name__=="__main__":
      main()
+     balik()
