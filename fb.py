@@ -310,7 +310,8 @@ def main():
                       sys.exit("\033[1;97m[\033[1;91m!\033[1;97m]\033[1;91mKoneksi Error\033[00m")
     elif tod == "02" or tod == "2":
          os.system("git pull")
-            balik()
+         sleep(1)
+         balik()
     elif tod == "03" or tod == "3":
          sub()
     elif tod == "04" or tod == "4":
