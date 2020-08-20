@@ -33,7 +33,7 @@ def mbf():
     print("\033[00m[\033[93m3\033[00m] Group WA")
     print("\033[00m[\033[93m4\033[00m] Exit")
     time.sleep(0.1)
-    f=input("\n\033[90m> \033[1;96m")
+    f=input("\n\033[90m> \033[1;93m")
     if f == "1":
          print("\033[1;94m===========================================\033[00m")
          mbasic = 'https://mbasic.facebook.com{}'
@@ -182,7 +182,7 @@ def mbf():
                    kata('\033[1;97m[\033[1;93m6\033[1;97m] \033[00mLihat Hasil Crack')
                    kata('\033[94m===========================================\033[0m\n')
                    print()
-                   tanya = input('\033[90m> \033[1;96m ')
+                   tanya = input('\033[90m> \033[1;93m ')
                    if tanya =="":
                          exit("\033[00m[\033[91m!\033[00m] Dont be empty")
                    elif tanya == '1':
