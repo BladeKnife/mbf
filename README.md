@@ -15,9 +15,7 @@ $gem install lolcat
 
 $termux-setup-storage
 
-$pkg install jq
-
-$pip install mechanize requests bs4
+$pip install mechanize requests bs4 futures
 
 $git clone https://github.com/BladeKnife/mbf
 
