@@ -21,4 +21,4 @@ $git clone https://github.com/BladeKnife/mbf
 
 $cd mbf
 
-$python fb.py
+$python mbf.py
