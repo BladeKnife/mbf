@@ -2,8 +2,6 @@
 
 Update crack from requests friends
 
-![Uploading 20201014_171639.jpg…]()
-
 
 Cara install
 
