@@ -1,7 +1,6 @@
-# mbf v2 
+# mbf v3
 
-Update crack from search name
-
+Update crack from requests friends
 
 Cara install
 
@@ -17,8 +16,10 @@ $termux-setup-storage
 
 $pip install mechanize requests bs4 futures
 
+$pip install colorama
+
 $git clone https://github.com/BladeKnife/mbf
 
 $cd mbf
 
-$python mbf.py
+$python fb.py
