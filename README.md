@@ -2,7 +2,8 @@
 
 Update crack from requests friends
 
-https://github.com/BladeKnife/mbf/issues/2#issue-721336697
+![Uploading 20201014_171639.jpg…]()
+
 
 Cara install
 
